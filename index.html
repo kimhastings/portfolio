@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team Twodog</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">	
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="row">
+        <div class="col-md-6">
+            <img class="title-logo" src="img/logo-150x150.png" alt="Dog logo">
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="title-super text-thin">Team Twodog</h1>
+          <h4>Explorers of the World</h4>
+        </div>
+      </header>
+      <section class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-md-12">
+            <img class="img-responsive" src="img/desert-dogs.jpg" alt="Desert dogs">
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Meet the Team</h2>
+        </div>
+      </section>
+      <section class="row text-center">
+        <article class="col-md-4">
+          <img class="img-responsive" src="img/taiko-beach.jpg" alt="Taiko" data-toggle="modal" data-target="#taikoModal">
+          <h3 class="text-uppercase">Taiko</h3>
+          <p><a href="https://hikeswithdogs.wordpress.com/2011/05/18/puppy-in-the-flesh/">Read about me</a></p>
+        </article>
+        <article class="col-md-4">
+          <img class="img-responsive" src="img/kepler-snow.jpg" alt="Kepler" data-toggle="modal" data-target="#keplerModal">
+          <h3 class="text-uppercase">Kepler</h3>
+          <p><a href="https://hikeswithdogs.wordpress.com/2011/01/11/rain-dogs/">Read about me</a></p>
+        </article>
+        <article class="col-md-4">
+          <img class="img-responsive" src="img/pops-bed.jpg" alt="Baggins" data-toggle="modal" data-target="#bagginsModal">
+          <h3 class="text-uppercase">Baggins, aka Pops</h3>
+          <p><a href="https://www.facebook.com/pg/cchdrescue.org/photos/?tab=album&album_id=1701425803406825">Read about me</a></p>
+        </article>
+      </section>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Taiko Modal -->
+    <div class="modal fade" id="taikoModal" tabindex="-1" role="dialog" aria-labelledby="taikoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="taikoModalLabel">Team Ambassador</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/taiko-beach.jpg" alt="Taiko">
+                    Taiko is in charge of meeting and greeting everyone we encounter.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kepler Modal -->
+    <div class="modal fade" id="keplerModal" tabindex="-1" role="dialog" aria-labelledby="keplerModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="keplerModalLabel">Navigator</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/kepler-snow.jpg" alt="Kepler">
+                    Kepler is never lost. He pays close attention to his footsteps and can retrace them without hesitation. He has an excellent nose for water and easily finds hidden springs.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Baggins Modal -->
+    <div class="modal fade" id="bagginsModal" tabindex="-1" role="dialog" aria-labelledby="bagginsModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="bagginsModalLabel">Wizard</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/pops-bed.jpg" alt="Baggins">
+                    Mr. Bilbo Baggins is a wise old hobbit masquerading in a dog suit. His history is a mystery.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
